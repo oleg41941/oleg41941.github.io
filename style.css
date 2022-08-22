@@ -1,0 +1,264 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.conteiner{
+	width: 1140px;
+	margin: 0 auto;
+}
+.promo{
+	background: linear-gradient(315deg, #ff6000 0%, #009ffd 74%);
+	min-height: 600px;
+}
+.promo__header{
+ 	font-size: 100px;
+ 	text-align: center;
+ 	color: cyan;
+}
+.promo__box{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+	
+}
+.promo__item{
+	height: 300px;
+	width: 300px;
+	transition: 1s;
+	position: relative; 
+}
+.promo__item:hover{
+	transform: scale(1.5);
+	transition: 1s;
+	z-index: 1;
+	
+}
+.promo__item:hover > .promo__text{
+	display: block;
+	transition: 1s;
+}
+.promo__item:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.4);
+	z-index: -1;
+}
+.promo__item:nth-child(1){
+	background-image:url( https://images.unsplash.com/photo-1659546274382-d8b60c422600?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	background-position: center;
+}
+.promo__item:nth-child(2){
+	background-image: url( https://avatars.mds.yandex.net/i?id=556de9c8465156d5b166736c324e5f6a-5223638-images-thumbs&n=13);
+	background-size: cover;
+	background-position:center;
+}
+.promo__item:nth-child(3){
+	background-image: url( https://avatars.mds.yandex.net/i?id=b197b1d35580007048c958c678ff4a87-5232568-images-thumbs&n=13);
+	background-size: cover;
+	background-position:center;
+}
+.promo__item:nth-child(4){
+	background-image: url( https://avatars.mds.yandex.net/i?id=6eef111f1c8d23bdc1ed5a41117cab28-5686193-images-thumbs&n=13);
+	background-size: cover;
+	background-position:center;
+}
+.promo__item:nth-child(5){
+	background-image: url( https://avatars.mds.yandex.net/i?id=434f7b24887e0ddbce55e1e4f76db912-5593341-images-thumbs&n=13);
+	background-size: cover;
+	background-position:center;
+}
+.promo__item:nth-child(6){
+	background-image: url( https://avatars.mds.yandex.net/i?id=4177102be43572b35a4e4749de13a52c-4366165-images-thumbs&n=13);
+	background-size: cover;
+	background-position:center;
+}
+.promo__item:nth-child(7){
+	background-image: url( https://avatars.mds.yandex.net/i?id=0ea9b06922cc93430f30f14351e4c3e7-3767031-images-thumbs&n=13);
+	background-size: cover;
+	background-position:center;
+}
+.promo__text{
+	display: none;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	transition: 1s;
+	z-index: 5;
+}
+
+
+.forest{
+	background: linear-gradient(315deg, #38ff00 0%, #26830c 74%);
+	min-height: 600px;
+}
+.forest__header{
+ 	font-size: 100px;
+ 	text-align: center;
+ 	color: lightgreen;
+ 	font-family: Roboto;
+}
+.forest__box{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+	
+}
+.forest__item{
+	height: 300px;
+	width: 300px;
+	transition: 1s;
+	position: relative; 
+}
+.forest__item:hover{
+	transform: scale(1.5);
+	transition: 1s;
+	z-index: 1;
+	
+}
+.forest__item:hover > .promo__text{
+	display: block;
+	transition: 1s;
+}
+.forest__item:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.4);
+	z-index: -1;
+}
+.forest__item:nth-child(1){
+	background-image:url( https://wallup.net/wp-content/uploads/2019/09/720268-pine-path-forest-tree.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.forest__item:nth-child(2){
+	background-image: url( https://i.pinimg.com/originals/82/95/82/829582daa1c73a8f8c4bef759f4d3fb6.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.forest__item:nth-child(3){
+	background-image: url( https://get.wallhere.com/photo/international-day-of-the-forest-world-day-of-forests-nature-summer-landscape-HDR-1011979.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.forest__item:nth-child(4){
+	background-image: url( https://wallpapertops.com/walldb/original/b/9/1/307962.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.forest__item:nth-child(5){
+	background-image: url( https://i.pinimg.com/originals/83/56/61/83566179ef2bf413e5974979f81807c2.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.forest__item:nth-child(6){
+	background-image: url( https://www.passionedolomiti.com/wp-content/uploads/2019/10/forest-967625_960_720.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.forest__item:nth-child(7){
+	background-image: url( https://images8.alphacoders.com/861/thumb-1920-861006.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.forest__text{
+	display: none;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	transition: 1s;
+	z-index: 5;
+}
+
+
+.sea{
+	background: linear-gradient(315deg, #3FC1C9 0%, #364F6B 74%);
+	min-height: 600px;
+}
+.sea__header{
+ 	font-size: 100px;
+ 	text-align: center;
+ 	color: blue;
+ 	font-family: Roboto;
+}
+.sea__box{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+	
+}
+.sea__item{
+	height: 300px;
+	width: 300px;
+	transition: 1s;
+	position: relative; 
+}
+.sea__item:hover{
+	transform: scale(1.5);
+	transition: 1s;
+	z-index: 1;
+	
+}
+.sea__item:hover > .promo__text{
+	display: block;
+	transition: 1s;
+}
+.sea__item:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.4);
+	z-index: -1;
+}
+.sea__item:nth-child(1){
+	background-image:url( https://catherineasquithgallery.com/uploads/posts/2021-02/1612768484_140-p-fon-golubogo-morya-184.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.sea__item:nth-child(2){
+	background-image: url( https://pic.rutubelist.ru/video/af/49/af498ebc99a1ff124517255518ba9af2.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.sea__item:nth-child(3){
+	background-image: url( https://otdich-v-gagrach.ru/wp-content/uploads/2017/12/A4DEFFDA-7270-450A-9A36-2F86A28E38B5.jpeg);
+	background-size: cover;
+	background-position:center;
+}
+.sea__item:nth-child(4){
+	background-image: url( https://robroy.ru/images/avtonomnaya-sistema-plumes-uluchshaet-otbor-prob.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.sea__item:nth-child(5){
+	background-image: url( https://million-wallpapers.ru/wallpapers/5/65/460874438277535/zakat-na-more-so-spokojnymi-volnami.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.sea__item:nth-child(6){
+	background-image: url( https://static.mk.ru/upload/entities/2019/07/17/16/articles/facebookPicture/d5/34/ed/b3/47f1d0b88a036446d2e94ff623cce423.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.sea__item:nth-child(7){
+	background-image: url( https://mota.ru/upload/wallpapers/source/2015/02/27/18/03/43305/050.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.sea__text{
+	display: none;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	transition: 1s;
+	z-index: 5;
+}
